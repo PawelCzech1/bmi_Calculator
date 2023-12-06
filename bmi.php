@@ -18,7 +18,7 @@
                 $weight = $_POST['weight']; 
                 $height = $_POST['height'];
 
-                echo "Dziękujemy za przesłanie formularza";
+                echo "Dziękujemy za przesłanie formularza. <br>";
                 $bmi = $weight / pow($height, 2);
                 echo "Twoje bmi wynosi " . round($bmi,  2); 
 
